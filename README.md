@@ -15,5 +15,3 @@ A web-based application for browsing, viewing, and reserving stadiums online. Bu
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB 
 - **Templating**: EJS
-
-## 📂 Project Structure
