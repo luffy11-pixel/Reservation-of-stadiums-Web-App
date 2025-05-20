@@ -1,0 +1,160 @@
+/* ...existing code from login.css with class names adjusted for register-section... */
+
+.register-section * {
+  font-family: "Poopins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.register-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(/assets/images/doing-sport-concept.jpg) no-repeat center
+    center;
+  background-size: cover;
+}
+
+.register-section .container {
+  background: rgb(0, 0, 0, 0.1);
+  width: 800px;
+  height: 600px;
+  padding: 24px;
+  border-radius: 16px;
+  border: solid 5px rgb(255, 255, 255, 0.1);
+  backdrop-filter: blur(25px);
+  box-shadow: 0px 0px 30px 20px rgb(0, 0, 0, 0.1);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: fade-in 0.5s ease-in-out;
+}
+
+.register-section .register-title {
+  margin-bottom: 16px;
+}
+
+.register-section .input-box {
+  display: flex;
+  width: 100%;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.register-section .input-box input {
+  width: 100%;
+  padding: 10px 16px 10px 38px;
+  border-radius: 99px;
+  border: solid 3px transparent;
+  background: rgb(255, 255, 255, 0.1);
+  outline: none;
+  caret-color: white;
+  color: white;
+  font-weight: 500;
+  transition: border 0.2s ease, box-shadow 0.2s ease;
+}
+
+.register-section .input-box input:focus {
+  border: solid 3px rgb(255, 255, 255, 0.25);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.register-section .input-box input::placeholder {
+  color: rgb(255, 255, 255, 0.75);
+}
+
+.register-section .input-box i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 14px;
+  color: rgb(255, 255, 255, 0.75);
+  font-size: 18px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.register-section .input-box input:focus + i {
+  color: #2cbd19;
+  animation: icon-bounce 0.5s ease-in-out;
+}
+
+@keyframes icon-bounce {
+  0%,
+  100% {
+    transform: translateY(-50%) scale(1);
+  }
+  50% {
+    transform: translateY(-60%) scale(1.2);
+  }
+}
+
+.register-section .register-button {
+  width: 100%;
+  margin-top: 24px;
+  padding: 10px 0;
+  background: #2cbd19;
+  border: 15px;
+  border-radius: 99px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  outline: transparent 3px solid;
+  transition: background-color 0.2s ease, transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.register-section .register-button:hover {
+  background-color: #28a745;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(44, 189, 25, 0.5);
+}
+
+.register-section .register-button:active {
+  transform: translateY(1px);
+  box-shadow: 0 3px 10px rgba(44, 189, 25, 0.3);
+}
+
+.register-section .register-button:focus {
+  outline: #32cdd58a;
+}
+
+.register-section .already-have-an-account {
+  font-weight: normal;
+  margin-top: 12px;
+}
+
+.register-section .already-have-an-account a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: medium;
+  position: relative;
+  transition: color 0.4s ease, transform 0.4s ease, text-shadow 0.4s ease;
+}
+
+.register-section .already-have-an-account a:hover {
+  color: #2cbd19;
+  transform: translateY(-5px) scale(1.1);
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.63);
+}
+
+.register-section .already-have-an-account a::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #28a745;
+  transition: width 0.4s ease, background-color 0.4s ease;
+}
+
+.register-section .already-have-an-account a:hover::after {
+  width: 100%;
+  background-color: rgba(44, 189, 25, 0.8);
+}

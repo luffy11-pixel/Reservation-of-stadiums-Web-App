@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="/css/nav.css" />
+    <link rel="stylesheet" href="/css/login.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="nav-section"><%- include('partials/navbar') %></div>
+    <div class="login-section">
+      <form action="/login" class="container">
+        <h1 class="login-title">Login</h1>
+
+        <section class="input-box">
+          <input type="text" name="username" placeholder="Username" />
+          <i class="fa-solid fa-circle-user"></i>
+        </section>
+
+        <section class="input-box">
+          <input type="password" name="password" placeholder="Password" />
+          <i class="fa-solid fa-lock"></i>
+        </section>
+
+        <section class="remember-forgot-box">
+          <div class="remember-me">
+            <input type="checkbox" name="remember-me" id="remember-me" />
+            <label for="remember-me">
+              <h5>Remember me</h5>
+            </label>
+          </div>
+          <a href="#" class="forgot-password">
+            <h5>forgot password</h5>
+          </a>
+        </section>
+
+        <button class="login-button" type="submit">Login</button>
+
+        <h5 class="dont-have-an-account">
+          Don't have an account?
+          <a
+            class="register-button"
+            class="<%= page === 'register' ? 'active' : '' %>"
+            href="/Register"
+            ><b>Register</b></a
+          >
+        </h5>
+      </form>
+    </div>
+    <div class="footer-section"><%- include('partials/footer') %></div>
+  </body>
+</html>

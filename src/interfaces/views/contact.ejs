@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us | QuickKick Stadiums</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/nav.css" />
+    <link rel="stylesheet" href="/css/contact.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="nav"><%- include('partials/navbar') %></div>
+
+    <!-- Hero Section -->
+    <section class="contact-hero text-center animate__animated animate__fadeIn">
+      <div class="container">
+        <h1 class="display-4 fw-bold mb-4">Get In Touch</h1>
+        <p class="lead">
+          We'd love to hear from you! Reach out for bookings, support, or
+          partnerships.
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="container mb-5">
+      <div class="row g-5">
+        <!-- Contact Form -->
+        <div class="col-lg-7">
+          <div
+            class="contact-card p-4 p-md-5 bg-white h-100 animate__animated animate__fadeInLeft"
+          >
+            <h2 class="mb-4">Send Us a Message</h2>
+            <form id="contactForm">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="name" class="form-label">Full Name</label>
+                  <input type="text" class="form-control" id="name" required />
+                </div>
+                <div class="col-md-6">
+                  <label for="email" class="form-label">Email Address</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    required
+                  />
+                </div>
+                <div class="col-12">
+                  <label for="subject" class="form-label">Subject</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="subject"
+                    required
+                  />
+                </div>
+                <div class="col-12">
+                  <label for="message" class="form-label">Your Message</label>
+                  <textarea
+                    class="form-control"
+                    id="message"
+                    rows="5"
+                    required
+                  ></textarea>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn submit-btn text-white mt-3">
+                    <i class="fas fa-paper-plane me-2"></i> Send Message
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="col-lg-5">
+          <div
+            class="contact-card p-4 p-md-5 bg-white h-100 animate__animated animate__fadeInRight"
+          >
+            <h2 class="mb-4">Contact Information</h2>
+
+            <div class="d-flex mb-4">
+              <div class="info-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div>
+                <h5>Our Location</h5>
+                <p class="text-muted mb-0">
+                  789 Sports Boulevard<br />Birmingham, UK B1 1AB
+                </p>
+              </div>
+            </div>
+
+            <div class="d-flex mb-4">
+              <div class="info-icon">
+                <i class="fas fa-phone-alt"></i>
+              </div>
+              <div>
+                <h5>Phone Numbers</h5>
+                <p class="text-muted mb-0">
+                  Main: +44 121 555 1234<br />
+                  Support: +44 121 555 5678
+                </p>
+              </div>
+            </div>
+
+            <div class="d-flex mb-4">
+              <div class="info-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div>
+                <h5>Email Addresses</h5>
+                <p class="text-muted mb-0">
+                  Bookings: bookings@quickkick.com<br />
+                  Support: support@quickkick.com
+                </p>
+              </div>
+            </div>
+
+            <div class="d-flex">
+              <div class="info-icon">
+                <i class="fas fa-clock"></i>
+              </div>
+              <div>
+                <h5>Working Hours</h5>
+                <p class="text-muted mb-0">
+                  Monday-Friday: 8AM - 8PM<br />
+                  Saturday-Sunday: 9AM - 6PM
+                </p>
+              </div>
+            </div>
+
+            <hr class="my-4" />
+
+            <h5 class="mb-3">Follow Us</h5>
+            <div class="d-flex gap-3">
+              <a href="#" class="text-dark"
+                ><i class="fab fa-facebook-f fa-lg"></i
+              ></a>
+              <a href="#" class="text-dark"
+                ><i class="fab fa-twitter fa-lg"></i
+              ></a>
+              <a href="#" class="text-dark"
+                ><i class="fab fa-instagram fa-lg"></i
+              ></a>
+              <a href="#" class="text-dark"
+                ><i class="fab fa-linkedin-in fa-lg"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="container-fluid px-0 mb-5 container google">
+      <div class="ratio ratio-21x9">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9729.222646962418!2d-1.890769!3d52.486243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4870bc9ae4f2e4b3%3A0x9a670ba18e08a084!2sBirmingham!5e0!3m2!1sen!2suk!4v1620000000000!5m2!1sen!2suk"
+          allowfullscreen=""
+          loading="lazy"
+          class="border-0"
+        ></iframe>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="container mb-5">
+      <h2 class="text-center mb-5">Frequently Asked Questions</h2>
+      <div class="accordion" id="faqAccordion">
+        <div class="accordion-item animate__animated animate__fadeInUp">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#faq1"
+            >
+              How do I book a stadium?
+            </button>
+          </h2>
+          <div
+            id="faq1"
+            class="accordion-collapse collapse show"
+            data-bs-parent="#faqAccordion"
+          >
+            <div class="accordion-body">
+              You can book directly through our website by selecting your
+              preferred stadium, date, and time slot. Payment is required to
+              confirm your booking.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item animate__animated animate__fadeInUp">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#faq2"
+            >
+              What's your cancellation policy?
+            </button>
+          </h2>
+          <div
+            id="faq2"
+            class="accordion-collapse collapse"
+            data-bs-parent="#faqAccordion"
+          >
+            <div class="accordion-body">
+              Cancellations made 48 hours or more before the booking time
+              receive a full refund. Cancellations within 48 hours are subject
+              to a 50% fee.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item animate__animated animate__fadeInUp">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#faq3"
+            >
+              Do you offer group discounts?
+            </button>
+          </h2>
+          <div
+            id="faq3"
+            class="accordion-collapse collapse"
+            data-bs-parent="#faqAccordion"
+          >
+            <div class="accordion-body">
+              Yes! We offer special rates for group bookings of 20+ people.
+              Contact our sales team at groups@quickkick.com for customized
+              packages.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="footer"><%- include('partials/footer') %></div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="/js/contact.js"></script>
+  </body>
+</html>

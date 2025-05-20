@@ -1,0 +1,288 @@
+.login-section * {
+  font-family: "Poopins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(/assets/images/doing-sport-concept.jpg) no-repeat center
+    center;
+  background-size: cover;
+}
+
+.login-section .container {
+  background: rgb(0, 0, 0, 0.1);
+  width: 800px;
+  height: 500px;
+  padding: 24px;
+  border-radius: 16px;
+  border: solid 5px rgb(255, 255, 255, 0.1);
+  backdrop-filter: blur(25px);
+  box-shadow: 0px 0px 30px 20px rgb(0, 0, 0, 0.1);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: fade-in 0.5s ease-in-out; /* Reduced duration */
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.login-section .login-title {
+  margin-bottom: 16px;
+}
+
+.login-section .input-box {
+  display: flex;
+  width: 100%;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.login-section .input-box input {
+  width: 100%;
+  padding: 10px 16px 10px 38px;
+  border-radius: 99px;
+  border: solid 3px transparent;
+  background: rgb(255, 255, 255, 0.1);
+  outline: none;
+  caret-color: white;
+  color: white;
+  font-weight: 500;
+  transition: border 0.2s ease, box-shadow 0.2s ease; /* Reduced duration */
+}
+
+.login-section .input-box input:focus {
+  border: solid 3px rgb(255, 255, 255, 0.25);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.login-section .input-box input::placeholder {
+  color: rgb(255, 255, 255, 0.75);
+}
+
+.login-section .input-box input::-ms-reveal {
+  filter: invert(100%);
+}
+
+.login-section .input-box i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 14px;
+  color: rgb(255, 255, 255, 0.75);
+  font-size: 18px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.login-section .input-box input:focus + i {
+  color: #2cbd19;
+  animation: icon-bounce 0.5s ease-in-out;
+}
+
+@keyframes icon-bounce {
+  0%,
+  100% {
+    transform: translateY(-50%) scale(1);
+  }
+  50% {
+    transform: translateY(-60%) scale(1.2);
+  }
+}
+
+.login-section .remember-forgot-box {
+  display: flex;
+  width: 100%;
+  margin-top: 16px;
+  justify-content: space-between;
+}
+
+body > form > section.remember-forgot-box > a {
+  text-decoration: none;
+  color: #2cbd19;
+  font-weight: normal;
+  font-size: medium;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+body > form > section.remember-forgot-box > a:hover {
+  color: #28a745;
+  transform: translateX(5px);
+}
+
+body > form > h5 > a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: medium;
+  position: relative;
+  transition: color 0.4s ease, transform 0.4s ease, text-shadow 0.4s ease;
+}
+
+body > form > h5 > a:hover {
+  color: #2cbd19;
+  transform: translateY(-5px) scale(1.1);
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.63);
+}
+
+body > form > h5 > a::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #28a745;
+  transition: width 0.4s ease, background-color 0.4s ease;
+}
+
+body > form > h5 > a:hover::after {
+  width: 100%;
+  background-color: rgba(44, 189, 25, 0.8);
+}
+
+.login-section .register-button {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: medium;
+  position: relative;
+  transition: color 0.4s ease, transform 0.4s ease, text-shadow 0.4s ease;
+}
+
+.login-section .register-button:hover {
+  color: #2cbd19;
+  transform: translateY(-5px) scale(1.1);
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.63);
+}
+
+.login-section .register-button::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #28a745;
+  transition: width 0.4s ease, background-color 0.4s ease;
+}
+
+.login-section .register-button:hover::after {
+  width: 100%;
+  background-color: rgba(44, 189, 25, 0.8);
+}
+
+.login-section .remember-forgot-box h5 {
+  font-weight: normal;
+  color: white;
+}
+
+.login-section .remember-me {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  transition: transform 0.4s ease, background-color 0.4s ease,
+    box-shadow 0.4s ease;
+}
+
+.login-section .remember-me:hover {
+  transform: translateY(-3px) scale(1.1);
+  background-color: rgba(44, 189, 25, 0.2);
+
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(44, 189, 25, 0.4);
+}
+
+.login-section .remember-me input {
+  accent-color: #2cbd19;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.login-section .remember-me:hover input {
+  transform: scale(1.2);
+}
+
+.login-section .forgot-password {
+  color: #2cbd19;
+  font-weight: normal;
+  font-size: medium;
+  text-decoration: none;
+  position: relative;
+  transition: color 0.4s ease, transform 0.4s ease, text-shadow 0.4s ease;
+}
+
+.login-section .forgot-password:hover {
+  color: #2cbd19;
+  transform: translateY(-5px) scale(1.1);
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.63);
+}
+
+.login-section .forgot-password::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #28a745;
+  transition: width 0.4s ease, background-color 0.4s ease;
+}
+
+.login-section .forgot-password:hover::after {
+  width: 100%;
+  background-color: rgba(44, 189, 25, 0.8);
+}
+
+.login-section .login-button {
+  width: 100%;
+  margin-top: 24px;
+  padding: 10px 0;
+  background: #2cbd19;
+  border: 15px;
+  border-radius: 99px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  outline: transparent 3px solid;
+  transition: background-color 0.2s ease, transform 0.2s ease,
+    box-shadow 0.2s ease; /* Reduced duration */
+}
+
+.login-section .login-button:hover {
+  background-color: #28a745;
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(44, 189, 25, 0.5);
+}
+
+.login-section .login-button:active {
+  transform: translateY(1px);
+  box-shadow: 0 3px 10px rgba(44, 189, 25, 0.3);
+}
+
+.login-section .login-button:focus {
+  outline: #32cdd58a;
+}
+
+.login-section .dont-have-an-account {
+  font-weight: normal; /* Fixed typo in property name as well */
+  margin-top: 12px;
+}

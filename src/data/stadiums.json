@@ -1,0 +1,352 @@
+[
+  {
+    "name": "Green Valley Stadium",
+    "location": {
+      "address": "123 Main St",
+      "city": "Manchester",
+      "country": "UK",
+      "coordinates": {
+        "lat": 53.4808,
+        "lng": -2.2426
+      },
+      "postalCode": "M1 1AA",
+      "neighborhood": "City Centre",
+      "transport": {
+        "bus": ["1", "2", "3"],
+        "train": "Manchester Piccadilly",
+        "parking": "On-site parking available"
+      }
+    },
+    "capacity": 22,
+    "price": 120,
+    "rating": 4.8,
+    "totalReviews": 156,
+    "images": [
+      {
+        "url": "/assets/images/stadiums/green-valley/main.jpg",
+        "alt": "Green Valley Stadium Main Pitch",
+        "type": "main"
+      },
+      {
+        "url": "/assets/images/stadiums/green-valley/facilities.jpg",
+        "alt": "Green Valley Stadium Facilities",
+        "type": "facility"
+      },
+      {
+        "url": "/assets/images/stadiums/green-valley/changing-rooms.jpg",
+        "alt": "Modern Changing Rooms",
+        "type": "facility"
+      },
+      {
+        "url": "/assets/images/stadiums/green-valley/parking.jpg",
+        "alt": "Secure Parking Area",
+        "type": "facility"
+      },
+      {
+        "url": "/assets/images/stadiums/green-valley/night.jpg",
+        "alt": "Stadium at Night with Floodlights",
+        "type": "view"
+      }
+    ],
+    "amenities": [
+      {
+        "name": "Floodlights",
+        "description": "Professional grade lighting system with 2000 lux illumination",
+        "icon": "lightbulb",
+        "included": true
+      },
+      {
+        "name": "Parking",
+        "description": "Secure parking for 50 vehicles with CCTV surveillance",
+        "icon": "car",
+        "included": true
+      },
+      {
+        "name": "Changing Rooms",
+        "description": "Modern changing facilities with showers and lockers",
+        "icon": "shower",
+        "included": true
+      },
+      {
+        "name": "First Aid",
+        "description": "On-site first aid facilities and trained staff",
+        "icon": "medical",
+        "included": true
+      },
+      {
+        "name": "Refreshments",
+        "description": "Vending machines and water stations",
+        "icon": "food",
+        "included": true
+      }
+    ],
+    "specifications": {
+      "pitchSize": {
+        "length": 100,
+        "width": 68,
+        "unit": "meters",
+        "area": "6,800 sqm"
+      },
+      "surfaceType": "Natural Grass",
+      "lighting": {
+        "type": "Floodlights",
+        "lux": 2000,
+        "coverage": "Full pitch"
+      },
+      "changingRooms": {
+        "available": true,
+        "capacity": 30,
+        "showers": 10,
+        "lockers": 30
+      },
+      "parking": {
+        "available": true,
+        "capacity": 50,
+        "type": "Secure",
+        "cost": "Included"
+      },
+      "showers": {
+        "available": true,
+        "hotWater": true,
+        "capacity": 10
+      }
+    },
+    "availability": {
+      "weekdays": {
+        "start": "08:00",
+        "end": "22:00",
+        "slots": [
+          "08:00-10:00",
+          "10:00-12:00",
+          "12:00-14:00",
+          "14:00-16:00",
+          "16:00-18:00",
+          "18:00-20:00",
+          "20:00-22:00"
+        ]
+      },
+      "weekends": {
+        "start": "09:00",
+        "end": "22:00",
+        "slots": [
+          "09:00-11:00",
+          "11:00-13:00",
+          "13:00-15:00",
+          "15:00-17:00",
+          "17:00-19:00",
+          "19:00-21:00"
+        ]
+      }
+    },
+    "reviews": [
+      {
+        "user": {
+          "name": "John Smith",
+          "avatar": "/assets/images/avatars/john.jpg",
+          "rating": 5
+        },
+        "comment": "Excellent facilities and well-maintained pitch. Staff were very helpful!",
+        "date": "2024-02-15",
+        "photos": [
+          "/assets/images/reviews/green-valley/review1.jpg",
+          "/assets/images/reviews/green-valley/review2.jpg"
+        ]
+      },
+      {
+        "user": {
+          "name": "Sarah Johnson",
+          "avatar": "/assets/images/avatars/sarah.jpg",
+          "rating": 4
+        },
+        "comment": "Great location and good value for money. Changing rooms could be cleaner.",
+        "date": "2024-02-10"
+      }
+    ],
+    "status": "active",
+    "lastMaintenance": "2024-01-15",
+    "nextMaintenance": "2024-04-15",
+    "rules": [
+      "No metal studs allowed",
+      "No food or drinks on the pitch",
+      "No smoking in the facility",
+      "Proper sports attire required"
+    ]
+  },
+  {
+    "name": "Urban Football Arena",
+    "location": {
+      "address": "456 Park Ave",
+      "city": "London",
+      "country": "UK",
+      "coordinates": {
+        "lat": 51.5074,
+        "lng": -0.1278
+      },
+      "postalCode": "SW1A 1AA",
+      "neighborhood": "Westminster",
+      "transport": {
+        "tube": ["Victoria", "Green Park"],
+        "bus": ["11", "24", "148"],
+        "parking": "Limited street parking"
+      }
+    },
+    "capacity": 22,
+    "price": 150,
+    "rating": 4.9,
+    "totalReviews": 203,
+    "images": [
+      {
+        "url": "/assets/images/stadiums/urban-arena/main.jpg",
+        "alt": "Urban Football Arena Main Pitch",
+        "type": "main"
+      },
+      {
+        "url": "/assets/images/stadiums/urban-arena/view.jpg",
+        "alt": "Aerial View of Urban Arena",
+        "type": "view"
+      },
+      {
+        "url": "/assets/images/stadiums/urban-arena/cafe.jpg",
+        "alt": "On-site Café",
+        "type": "facility"
+      },
+      {
+        "url": "/assets/images/stadiums/urban-arena/equipment.jpg",
+        "alt": "Equipment Rental Area",
+        "type": "facility"
+      },
+      {
+        "url": "/assets/images/stadiums/urban-arena/night.jpg",
+        "alt": "Arena at Night",
+        "type": "view"
+      }
+    ],
+    "amenities": [
+      {
+        "name": "Artificial Turf",
+        "description": "Premium FIFA-approved artificial playing surface",
+        "icon": "grass",
+        "included": true
+      },
+      {
+        "name": "Café",
+        "description": "Full-service café with hot and cold refreshments",
+        "icon": "coffee",
+        "included": true
+      },
+      {
+        "name": "Equipment Rental",
+        "description": "High-quality football equipment available for rent",
+        "icon": "sports",
+        "included": false,
+        "price": "£5 per item"
+      },
+      {
+        "name": "WiFi",
+        "description": "High-speed internet access throughout the facility",
+        "icon": "wifi",
+        "included": true
+      },
+      {
+        "name": "Video Analysis",
+        "description": "Professional video recording and analysis service",
+        "icon": "video",
+        "included": false,
+        "price": "£20 per session"
+      }
+    ],
+    "specifications": {
+      "pitchSize": {
+        "length": 105,
+        "width": 68,
+        "unit": "meters",
+        "area": "7,140 sqm"
+      },
+      "surfaceType": "Artificial Turf",
+      "lighting": {
+        "type": "Full Lighting",
+        "lux": 2500,
+        "coverage": "Full pitch and surrounding areas"
+      },
+      "changingRooms": {
+        "available": true,
+        "capacity": 25,
+        "showers": 8,
+        "lockers": 25
+      },
+      "parking": {
+        "available": false,
+        "nearby": "Street parking available",
+        "cost": "Metered"
+      },
+      "showers": {
+        "available": true,
+        "hotWater": true,
+        "capacity": 8
+      }
+    },
+    "availability": {
+      "weekdays": {
+        "start": "07:00",
+        "end": "23:00",
+        "slots": [
+          "07:00-09:00",
+          "09:00-11:00",
+          "11:00-13:00",
+          "13:00-15:00",
+          "15:00-17:00",
+          "17:00-19:00",
+          "19:00-21:00",
+          "21:00-23:00"
+        ]
+      },
+      "weekends": {
+        "start": "08:00",
+        "end": "23:00",
+        "slots": [
+          "08:00-10:00",
+          "10:00-12:00",
+          "12:00-14:00",
+          "14:00-16:00",
+          "16:00-18:00",
+          "18:00-20:00",
+          "20:00-22:00"
+        ]
+      }
+    },
+    "reviews": [
+      {
+        "user": {
+          "name": "Michael Brown",
+          "avatar": "/assets/images/avatars/michael.jpg",
+          "rating": 5
+        },
+        "comment": "Best artificial pitch I've played on. Café service is excellent!",
+        "date": "2024-02-20",
+        "photos": [
+          "/assets/images/reviews/urban-arena/review1.jpg",
+          "/assets/images/reviews/urban-arena/review2.jpg"
+        ]
+      },
+      {
+        "user": {
+          "name": "Emma Wilson",
+          "avatar": "/assets/images/avatars/emma.jpg",
+          "rating": 5
+        },
+        "comment": "Professional setup with great facilities. Highly recommended!",
+        "date": "2024-02-18"
+      }
+    ],
+    "status": "active",
+    "lastMaintenance": "2024-01-20",
+    "nextMaintenance": "2024-04-20",
+    "rules": [
+      "Only rubber-soled shoes allowed",
+      "No food or drinks on the pitch",
+      "No smoking in the facility",
+      "Proper sports attire required",
+      "Booking cancellation 24 hours in advance"
+    ]
+  }
+]

@@ -1,0 +1,84 @@
+.booking-hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("/assets/images/image.webp");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 0;
+  margin-bottom: 50px;
+  animation: fadeIn 1.5s ease-in-out;
+}
+.booking-card {
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  border: none;
+  animation: fadeInUp 0.5s ease-in-out;
+}
+.booking-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+.time-slot {
+  border: 2px solid #e9ecef;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all 0.2s, transform 0.2s ease, box-shadow 0.2s ease;
+}
+.time-slot:hover,
+.time-slot.selected {
+  border-color: #198754;
+  background-color: rgba(25, 135, 84, 0.05);
+}
+.time-slot:hover {
+  transform: scale(1.02);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+.time-slot.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  background-color: #f8f9fa;
+}
+.stadium-image {
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+.stadium-image:hover {
+  transform: scale(1.05);
+}
+.price-badge {
+  font-size: 1.2rem;
+  background: #198754;
+}
+/* Smooth hover effect for buttons */
+button {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+button:hover {
+  background-color: #145a32;
+  transform: scale(1.05);
+}
+/* Keyframes for animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

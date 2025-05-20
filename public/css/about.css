@@ -1,0 +1,107 @@
+.hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("/assets/images/image.webp");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 0;
+  margin-bottom: 50px;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.hero-section .btn {
+  position: relative;
+  overflow: hidden;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.hero-section .btn:hover {
+  background-color: #28a745;
+  transform: scale(1.1);
+}
+
+.hero-section .btn .icon {
+  display: inline-block;
+  transition: transform 0.5s ease-in-out, content 0.5s ease-in-out;
+  position: relative;
+}
+
+.hero-section .btn:hover .icon {
+  animation: ball-to-goal 2s ease-in-out forwards,
+    icon-to-goal 2s ease-in-out forwards;
+}
+
+@keyframes ball-to-goal {
+  0% {
+    transform: translateX(0) rotate(0deg);
+  }
+  50% {
+    transform: translateX(50px) translateY(-10px) rotate(180deg);
+  }
+  100% {
+    transform: translateX(100px) translateY(0) rotate(360deg);
+  }
+}
+
+@keyframes icon-to-goal {
+  0% {
+    content: "\f1e3"; /* Font Awesome football icon */
+  }
+  100% {
+    content: "\f44c"; /* Font Awesome goal icon */
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.mission-section {
+  padding: 80px 0;
+  background-color: rgb(208, 241, 208);
+  animation: fadeInLeft 0.8s ease-in-out;
+}
+.mission-section .text {
+  width: 1600px;
+}
+.feature-card {
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  animation: fadeInUp 0.8s ease-in-out;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+}
