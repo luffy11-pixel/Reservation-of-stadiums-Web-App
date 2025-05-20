@@ -1,6 +1,6 @@
 # 🏟️ Reservation of Stadiums - Web App
 
-A web-based application for browsing, viewing, and reserving stadiums online. Built with **Node.js**, **Express.js**, **EJS**, **Bootstrap**, and **FullCalendar**, this platform allows users to easily check stadium availability and make bookings.
+A web-based application for browsing, viewing, and reserving stadiums online. Built with **Node.js**, **Express.js**, **EJS**, **Bootstrap**, and **JS**, this platform allows users to easily check stadium availability and make bookings.
 
 ## 🚀 Features
 
