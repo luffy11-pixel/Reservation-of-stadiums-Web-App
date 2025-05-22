@@ -12,14 +12,14 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: url(/assets/images/doing-sport-concept.jpg) no-repeat center
+  background: url(/assets/images/green2.jpg) no-repeat center
     center;
   background-size: cover;
 }
 
 .register-section .container {
   background: rgb(0, 0, 0, 0.1);
-  width: 800px;
+  width: 600px;
   height: 600px;
   padding: 24px;
   border-radius: 16px;
