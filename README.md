@@ -1,17 +1,22 @@
-# 🏟️ Reservation of Stadiums - Web App
+##Overview
+The Simple Reservation-of-Stadiums Web App is a user-friendly platform designed to streamline the process of booking sports stadiums. It allows users to browse available stadiums, check real-time availability, and make reservations through a responsive and intuitive interface.
 
-A web-based application for browsing, viewing, and reserving stadiums online. Built with **Node.js**, **Express.js**, **EJS**, **Bootstrap**, and **JS**, this platform allows users to easily check stadium availability and make bookings.
+##Features
+Stadium Listing: View available stadiums with key details and images.
 
-## 🚀 Features
+Interactive Calendar: Check real-time stadium availability using FullCalendar.
 
-- 📅 View stadium availability via interactive calendar (FullCalendar)
-- 📝 Reserve stadiums by selecting date/time
-- 👤 User-friendly booking interface
-- 📸 Stadium gallery and location info
+Online Booking: Submit reservation requests for selected dates and time slots.
 
-## 🛠️ Tech Stack
+Responsive UI: Clean and accessible design compatible with desktop and mobile devices.
 
-- **Frontend**: HTML, CSS, Bootstrap, EJS, JS
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB 
-- **Templating**: EJS
+##Technologies Used
+Node.js & Express.js: Backend server and routing.
+
+EJS: Templating engine for dynamic HTML rendering.
+
+Bootstrap: Frontend styling and responsive layout.
+
+FullCalendar.js: Interactive calendar integration for booking visualization.
+
+##Media
