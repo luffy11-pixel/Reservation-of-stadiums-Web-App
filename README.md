@@ -1,17 +1,31 @@
-# 🏟️ Reservation of Stadiums - Web App
+## Overview
+The Expense Tracker App is a comprehensive financial management tool designed to help users track expenses, set savings goals, and manage budgets. With a user-friendly interface and powerful features, this app offers real-time insights into personal finances, enabling users to make informed financial decisions.
 
-A web-based application for browsing, viewing, and reserving stadiums online. Built with **Node.js**, **Express.js**, **EJS**, **Bootstrap**, and **JS**, this platform allows users to easily check stadium availability and make bookings.
+## Features
+- **Expense and Income Tracking:** Log daily expenses and recurring income effectively.
+- **Budget Management:** Define categories and track spending to ensure financial goals are met.
+- **Savings Goals:** Set and monitor progress towards specific financial goals.
+- **Reports and Insights:** View detailed analytics, including charts and summaries, for better financial understanding.
+- **Local Data Storage:** Efficient and secure data storage powered by Hive database.
 
-## 🚀 Features
+## Technologies Used
+- **Flutter:** For building the cross-platform mobile application.
+- **Hive:** Lightweight and fast NoSQL database for local data storage.
+- **Dart:** Primary programming language for Flutter development.
 
-- 📅 View stadium availability via interactive calendar (FullCalendar)
-- 📝 Reserve stadiums by selecting date/time
-- 👤 User-friendly booking interface
-- 📸 Stadium gallery and location info
+## Media
 
-## 🛠️ Tech Stack
+### App Screenshots
 
-- **Frontend**: HTML, CSS, Bootstrap, EJS, JS
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB 
-- **Templating**: EJS
+<p align="center">
+  <img src="" width="150"/>
+  <img src="" width="150"/>
+  <img src="" width="150"/>
+  <img src="" width="150"/>
+  <img src="" width="150"/>
+</p>
+
+
+
+## License
+MIT License
