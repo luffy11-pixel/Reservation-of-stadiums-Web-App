@@ -1,12 +1,11 @@
 ## Overview
-The Expense Tracker App is a comprehensive financial management tool designed to help users track expenses, set savings goals, and manage budgets. With a user-friendly interface and powerful features, this app offers real-time insights into personal finances, enabling users to make informed financial decisions.
+The Simple Reservation-of-Stadiums Web App is a user-friendly platform designed to streamline the process of booking sports stadiums. It allows users to browse available stadiums, check real-time availability, and make reservations through a responsive and intuitive interface.
 
 ## Features
-- **Expense and Income Tracking:** Log daily expenses and recurring income effectively.
-- **Budget Management:** Define categories and track spending to ensure financial goals are met.
-- **Savings Goals:** Set and monitor progress towards specific financial goals.
-- **Reports and Insights:** View detailed analytics, including charts and summaries, for better financial understanding.
-- **Local Data Storage:** Efficient and secure data storage powered by Hive database.
+- **Responsive UI:**Clean and accessible design compatible with desktop and mobile devices.
+- **Stadium Listing:** View available stadiums with key details and images.
+- **Interactive Calendar:** Check real-time stadium availability using FullCalendar.
+- **Reservation System:** Book stadiums by selecting preferred dates and times through a simple and guided process.
 
 ## Technologies Used
 - **Flutter:** For building the cross-platform mobile application.
